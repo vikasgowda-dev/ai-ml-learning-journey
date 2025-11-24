@@ -40,3 +40,34 @@ count = 1
 while count <= 5:
     print(count)
     count += 1
+
+print("--------import----------")
+# import math 
+# print(math.sqrt(16))
+
+print("--------except--------")
+try:
+    num = int("abc")
+except:
+    print("Coversion Failed")
+
+print("----True---------")
+
+is_logged_in = True
+if is_logged_in:
+    print("Welcome")
+
+print("-----False------")
+
+is_admin = False
+
+if is_admin:
+    print("Admin panel")
+else:
+    print("User panel")
+
+print("------None------")
+
+result = None 
+if result is None:
+  print("No value")
