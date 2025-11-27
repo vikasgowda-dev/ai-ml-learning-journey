@@ -36,3 +36,20 @@ print("-------Logical operator--------")
 print("Both true(and):",age > 18 and has_id)
 print("One true(or):",age < 18 or has_id)
 print("Not(Reverse):", not has_id)
+
+# 4) Assignment operator?
+# - Assign values to variables.
+
+print("--------Assignment operator-------")
+num = 10
+print("Intial value:",num)
+num += 5
+print("After += 5:",num)
+num -= 3
+print("After -= 3:",num)
+num *= 2
+print("After *= 2:",num)
+num /= 4
+print("After /= 4:",num)
+num %= 2
+print("After %= 2:",num)
