@@ -4,7 +4,7 @@
 
 a = 10
 b = 3 
-print("-----------Airthemetic Operator-----------")
+print("-----------Airthemetic operator(operands 10 and 3)-----------")
 print("Addition:",a+b)
 print("Substraction:",a-b)
 print("Multiplication:",a*b)
@@ -17,12 +17,22 @@ print("Floor Division:",a//b)
 # 2) Relational operator?
 # - Compare two values and return true or false.
 
-x = 5 
-y = 10
-print("------Relational Operator-------")
+x = 10
+y = 15
+print("------Relational operator(operands 10 and 15)-------")
 print("Equal to:",x == y)
-print("Not Equal:",x!=y)
-print("Greater-than:",x>y)
-print("Less-than:",x<y)
-print("Greater or Equal:",x>=y)
-print("Less or Equal:",x<=y)
+print("Not Equal:",x != y)
+print("Greater-than:",x > y)
+print("Less-than:",x < y)
+print("Greater or Equal:",x >= y)
+print("Less or Equal:",x <= y)
+
+# 3) Logical operator?
+# - Used to combine conditions.
+
+age = 22
+has_id = True
+print("-------Logical operator--------")
+print("Both true(and):",age > 18 and has_id)
+print("One true(or):",age < 18 or has_id)
+print("Not(Reverse):", not has_id)
