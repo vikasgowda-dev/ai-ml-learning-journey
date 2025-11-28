@@ -53,3 +53,15 @@ num /= 4
 print("After /= 4:",num)
 num %= 2
 print("After %= 2:",num)
+
+
+
+print("---------------salary eligibility example using operators---------")
+salary = 35000
+bonus = 5000
+experience = 3
+
+total_salary = salary + bonus
+is_eligible = total_salary >= 40000 and experience >= 2
+print("Total Salary:",total_salary)
+print("Eligible:",is_eligible)
