@@ -33,3 +33,11 @@ c = 3
 
 result = a + b > c and b % c == 1 | 0
 print(result)
+
+print("-------Example 4------------")
+a = 4
+b = 2
+c = 3
+
+result = a + b ** c > 20 and not (b-c) == 0
+print(result)
